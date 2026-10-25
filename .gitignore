@@ -1,0 +1,24 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local data and exports (keep source data out of Git unless permitted)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.sqlitedb
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.local.*
+credentials.*
